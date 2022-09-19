@@ -1,0 +1,28 @@
+package dataTypes;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		int sayi = 12;
+		 // sayi = "Ankara"; Java tip güvenli bir dil olduðu için deðiþemez
+		sayi = 13; // olarak deðiþebilir çünkü tip ayný
+		
+		byte sayi2 = 127; // byte ýn alabileceði max deðer 1byte alan
+		byte sayi3 = -128; // byte ýn alabileceði min deðer 
+		short sayi4 = 32767; // short un alabileceði max deðer 2byte alan
+		short sayi5 = -32768; // short un alabileceði min deðer 
+		int sayi6 = 2147483647; // int in alabileceði max deðer 4 byte alan
+		int sayi7 = -2147483648; // int in alabileceði min deðer
+		long sayi8 = 9223372036854775807L; // long un alabileceði max deðer 8 byte alan  
+		//sonuna L eklenmeli yoksa int olarak görüyor derleyici hata verir þu þekilde
+		//"The literal 9223372036854775807 of type int is out of range "
+		long sayi9 = -9223372036854775808L; // long un alabileceði min deðer 8 byte alan
+		
+		
+		
+		
+		
+		}
+
+}

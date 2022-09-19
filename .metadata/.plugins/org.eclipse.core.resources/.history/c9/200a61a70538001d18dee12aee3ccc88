@@ -1,0 +1,33 @@
+package miniProjeSesliHarfler;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		char harf = 'U';
+		
+		switch(harf) {
+		
+		case 'A':
+		case 'U':
+		case 'O':
+		case 'Ö':
+		case 'Ü':
+		case 'I':
+		case 'Ý':
+			System.out.println("Sesli harf : "+harf);
+		break;
+		
+		default:
+			System.out.println("Sessiz harf: "+harf);
+		
+		
+		
+		}
+		
+		
+		
+		
+	}
+
+}
